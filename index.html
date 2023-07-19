@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="container nav_menu container--hero">
+            <div class="nav_container-logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <ul id="nav_link">
+                <div>
+                    <img class="logo_mobile" src="img/logo.png" alt="">
+                    <div class="nav_items--cart">
+                        <i class="fa-solid fa-heart"></i>
+                        <span class="nav_items--cartOne">1</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span>3</span>
+                    </div>
+                    <img class="nav_country" src="img/language.png" alt="">
+                    <select class="nav_select" name="pais" id="pais">
+                        <option value="en">English</option>
+                        <option value="es">Espanish</option>
+                    </select>
+                </div>
+                <li><a class="nav_links" href="index.html">Home</a></li>
+                <li><a class="nav_links" href="page/shop.html">Shop</a></li>
+                <li><a class="nav_links" href="page/blog.html">Blog</a></li>
+                <li><a class="nav_links" href="page/contact.html">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="header_items">
+            <i class="fa-solid fa-heart"></i>
+            <span class="header_items--heart">1</span>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>3</span>
+        </div>
+
+    </header>
+    <section class="container--hero container">
+        <section class="hero_grid">
+            <article class="hero_item--one hero_item">
+                <div class="hero_categories">
+                    <div class="hero_categories--all">
+                        <i class="fa-solid fa-bars"></i>
+                        <span>All departaments</span>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <ul id="hero_menu">
+                        <li>Fresh Meat</li>
+                        <li>Vegetables</li>
+                        <li>Fruits & Nut Gifts</li>
+                        <li>Fresh Berries</li>
+                        <li>Ocean Foods</li>
+                        <li>Butter & Eggs</li>
+                        <li>Fastfood</li>
+                        <li>Fresh Onion</li>
+                        <li>Papayaya & Crisps</li>
+                        <li>Oatmeal</li>
+                        <li>Fresh Bananas</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="hero_item--two hero_item">
+                <div class="hero_search">
+                    <div class="hero_search-form">
+                        <form action="">
+                            <div class="hero_search--categories">
+                                All Categories
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                            <input type="search" placeholder="What do you nedd?">
+                            <button type="submit">SEARCH</button>
+                        </form>
+                    </div>
+                    <div class="hero_search-phone">
+                        <div class="search_phone-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="search_phone-text">
+                            <h5>+65 11.188.888</h5>
+                            <span>support 24/7 time</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero_bg">
+                    <div class="hero_text">
+                        <span>Fruits Fresh</span>
+                        <h2>Vegetable <br> 100% Organic</h2>
+                        <p>Free Pickup and Delivery Available</p>
+                        <a href="">shop now</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </section>
+    <section class="container container--hero">
+        <section class="container_cards">
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img"><img draggable="false" src="img/categories/cat-1.jpg" alt="cat-1"></div>
+                    <h5>
+                        <a href="#">Drink Fruits</a>
+                    </h5>
+                </li>
+                <li class="card">
+                    <div class="img"><img draggable="false" src="img/categories/cat-2.jpg" alt="cat-2"></div>
+                    <h5>
+                        <a href="#">Drink Fruits</a>
+                    </h5>
+                </li>
+                <li class="card">
+                    <div class="img"><img draggable="false" src="img/categories/cat-3.jpg" alt="cat-3"></div>
+                    <h5>
+                        <a href="#">Drink Fruits</a>
+                    </h5>
+                </li>
+                <li class="card">
+                    <div class="img"><img draggable="false" src="img/categories/cat-4.jpg" alt="cat-4"></div>
+                    <h5>
+                        <a href="#">Drink Fruits</a>
+                    </h5>
+                </li>
+                <li class="card">
+                    <div class="img"><img draggable="false" src="img/categories/cat-5.jpg" alt="cat-5"></div>
+                    <h5>
+                        <a href="#">Drink Fruits</a>
+                    </h5>
+                </li>
+            </ul>
+            <div class="carrousel_indicators">
+                    <i id="left" class="fa-solid fa-chevron-left indicators"></i>
+                    <i id="right" class="fa-solid fa-chevron-right indicators"></i>
+            </div>
+        </section>
+    </section>
+    <section class="container container--hero">
+        <article>
+            <h3>Featured Product</h3>
+            <div class="product_line"></div>
+        </article>
+        <section class="container_products">
+            <article class="container_product-item">
+                <img src="img/featured/feature-1.jpg" alt="">
+                <p>Crab Pool Security</p>
+                <h5>$35.00</h5>
+            </article>
+            <article class="container_product-item item-2">
+                <img src="img/featured/feature-2.jpg" alt="">
+                <p>Crab Pool Security</p>
+                <h5>$35.00</h5>
+            </article>
+            <article class="container_product-item item-3">
+                <img src="img/featured/feature-3.jpg" alt="">
+                <p>Crab Pool Security</p>
+                <h5>$35.00</h5>
+            </article>
+            <article class="container_product-item item-4">
+                <img src="img/featured/feature-4.jpg" alt="">
+                <p>Crab Pool Security</p>
+                <h5>$35.00</h5>
+            </article>
+            <article class="container_product-item item-5">
+                <img src="img/featured/feature-5.jpg" alt="">
+                <p>Crab Pool Security</p>
+                <h5>$35.00</h5>
+            </article>
+            <article class="container_product-item item-6">
+                <img src="img/featured/feature-6.jpg" alt="">
+                <p>Crab Pool Security</p>
+                <h5>$35.00</h5>
+            </article>
+            <article class="container_product-item item-7">
+                <img src="img/featured/feature-7.jpg" alt="">
+                <p>Crab Pool Security</p>
+                <h5>$35.00</h5>
+            </article>
+            <article class="container_product-item item-8">
+                <img src="img/featured/feature-8.jpg" alt="">
+                <p>Crab Pool Security</p>
+                <h5>$35.00</h5>
+            </article>
+        </section>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
